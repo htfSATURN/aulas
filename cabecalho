@@ -1,0 +1,11 @@
+# Solicita o nome do aluno, RA e o nome do programa
+nome_aluno = input("Digite seu nome: ")
+ra_aluno = input("Digite seu RA: ")
+nome_programa = input("Digite o nome do programa: ")
+
+# Exibe o cabeçalho
+print("****************************************************************************")
+print("******    Programação II -  2º Ciclo Jogos Digitais                              ******")
+print(f"******   Nome {nome_aluno:<40} RA {ra_aluno:<20}******")
+print(f"******   Programa : {nome_programa:<52}******")
+print("****************************************************************************")
